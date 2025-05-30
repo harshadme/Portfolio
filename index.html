@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Harshad M E - Data Analyst Portfolio</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0057b7;
+      color: white;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      margin: 2rem auto;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .sidebar {
+      flex: 1 1 250px;
+      background: #f0f0f0;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .sidebar img {
+  width: 180px;
+  height: 240px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+	}
+
+    .sidebar h1 {
+      margin: 0.5rem 0;
+      color: #0057b7;
+    }
+
+    .sidebar p {
+      font-weight: bold;
+      color: #666;
+    }
+
+    .content {
+      flex: 3 1 600px;
+      padding: 2rem;
+    }
+
+    h2 {
+      color: #0057b7;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    p, ul {
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: disc inside;
+    }
+
+    .skills-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 2rem;
+    }
+
+    .skills-table th, .skills-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    .skills-table th {
+      background-color: #f2f2f2;
+      text-align: left;
+    }
+
+    .project-img {
+      max-width: 100%;
+      height: auto;
+      margin: 1rem 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    }
+
+    .contact-info a {
+      color: #0057b7;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #ddd;
+      margin-top: 3rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Data Analyst Portfolio</h1>
+  </header>
+
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <img src="Harshad M E_Photo.jpg" alt="Profile Photo" />
+      <h1>Harshad M E</h1>
+      <p>Data Analyst</p>
+      <p>Abu Dhabi, UAE</p>
+      <p><a href="mailto:meharshad00@gmail.com">meharshad00@gmail.com</a></p>
+      <p><a href="https://www.linkedin.com/in/harshad-me/" target="_blank">LinkedIn Profile</a></p>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+      <section id="about">
+        <h2>About Me</h2>
+        <p>I am a Computer Science Engineering graduate with hands-on experience in data analysis, visualization, and reporting. I have completed data analyst simulations with Accenture and PwC, and have 2 years of professional experience as an Admin Operator at a medical supplier company.</p>
+        <p>Skilled in Excel, Power BI, SQL, and basic Python. Currently seeking Data Analyst opportunities in Dubai or Abu Dhabi.</p>
+      </section>
+
+      <section id="experience">
+        <h2>Work Experience</h2>
+        <h3>Admin Operator</h3>
+        <p><strong>Medical Supplierz, Kuwait</strong> | Aug 2023 – May 2025</p>
+        <ul>
+          <li>Processed and managed large product datasets using Excel.</li>
+          <li>Extracted and cleaned data from PDFs into structured spreadsheets.</li>
+          <li>Uploaded product details and images to the company website.</li>
+          <li>Used VLOOKUP, PivotTables, and Macros for data validation and reporting.</li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <h3>Accenture Data Analyst & Visualization Simulation</h3>
+        <ul>
+          <li>Cleaned and analyzed 7 datasets to advise a social media client.</li>
+          <li>Built Power BI dashboards and presented key insights.</li>
+        </ul>
+        <img src="Project_1.png" alt="Dashboard Sample" class="project-img" />
+
+        <h3>PwC Switzerland – Power BI Job Simulation</h3>
+        <ul>
+          <li>Created dashboards to analyze HR gender balance KPIs.</li>
+          <li>Summarized findings in professional reports and emails.</li>
+        </ul>
+	 <img src="Project_2.png" alt="Dashboard Sample" class="project-img" />
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <table class="skills-table">
+          <thead>
+            <tr>
+              <th>Tools & Languages</th>
+              <th>Techniques & Concepts</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Excel, Power BI</td>
+              <td>Data Cleaning, Dashboards</td>
+            </tr>
+            <tr>
+              <td>SQL, Python (basic)</td>
+              <td>Reporting & KPI Tracking</td>
+            </tr>
+            <tr>
+              <td>Google Sheets</td>
+              <td>Power Query, PivotTables</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+          <li>Accenture – Data Analytics & Visualization Simulation</li>
+          <li>PwC Switzerland – Power BI Job Simulation</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>© 2025 Harshad M E | Data Analyst Portfolio</p>
+  </footer>
+</body>
+</html>
